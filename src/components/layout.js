@@ -1,5 +1,6 @@
 import './layout.scss'
 import Sidebar from './sidebar'
+import Navbar from './navbar'
 
 const Layout = () => {
     return (
@@ -7,6 +8,9 @@ const Layout = () => {
             <Sidebar>
 
             </Sidebar>
+            <Navbar>
+
+            </Navbar>
         </>
     )
     

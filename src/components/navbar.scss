@@ -1,0 +1,32 @@
+
+.Navbar {
+    background: black;
+    ul {
+        position: absolute;
+        right: 22px;
+        width: 100%;
+        display: flex;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+        justify-content: flex-end; 
+        margin: 0;
+  
+        li {
+            
+          a{
+              padding: 22px 36px;
+              display: block;
+              font-family: "Helvetica Neue";
+              font-size: 22px;
+              line-height: 16px;
+              text-decoration: none;
+              color: #e8e4da;
+  
+              &:hover svg {
+                  color: #f0ebf7;
+              }
+          }
+        }
+      }
+}
