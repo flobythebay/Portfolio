@@ -18,11 +18,11 @@ const Sidebar = () => (
         <Link className='logo' to='/'>
             <img src={Logo} alt='logo'/>
         </Link>
-        <nav>
+        {/* <nav>
             <NavLink exact="true" activeclassname="active" to="/">
                 <FontAwesomeIcon icon={faHome} color="#e8e4da"/>
             </NavLink>
-        </nav>
+        </nav> */}
         <ul>
             <li>
                 <a target="_blank" rel='noreferrer' href="https://www.linkedin.com/in/florence-zhao-1694a2243/">
