@@ -1,4 +1,5 @@
 import './home.scss'
+import letterF from '../assets/images/f.png'
 
 const Home = () => {
     return (
@@ -6,7 +7,8 @@ const Home = () => {
             <div className="container home-page">
                 <div className='text-zone'>
                     <h1>Hi, <br /> I'm
-                    Florence
+                    <img src={letterF} alt="f"/>
+                    lorence,
                     <br/>
                     Software Engineer
                     </h1> 
